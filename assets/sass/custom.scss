@@ -27,12 +27,14 @@ html, body {
 
 .mc-field-group {
   display: flex;
+  justify-content: center;
   
   input.email {
     border: solid 1px white;
     border-radius: 8px 0 0 8px;
     border-right: 0;
     height: 2.85em;
+    width: 45%;
   }
 
   input.button {
@@ -62,6 +64,10 @@ html, body {
   }
 
   .mc-field-group {
+    input.email {
+      flex-grow: 1;
+    }
+
     input.button {
       padding: 0 1em;
     }
