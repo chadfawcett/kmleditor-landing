@@ -2599,12 +2599,14 @@ html, body {
     margin-bottom: 0.2em; }
 
 .mc-field-group {
-  display: flex; }
+  display: flex;
+  justify-content: center; }
   .mc-field-group input.email {
     border: solid 1px white;
     border-radius: 8px 0 0 8px;
     border-right: 0;
-    height: 2.85em; }
+    height: 2.85em;
+    width: 45%; }
   .mc-field-group input.button {
     border-radius: 0 8px 8px 0;
     border-left: 0;
@@ -2621,5 +2623,7 @@ html, body {
     width: 95%; }
     #banner .inner h1 {
       font-size: 7em; }
+  .mc-field-group input.email {
+    flex-grow: 1; }
   .mc-field-group input.button {
     padding: 0 1em; } }
