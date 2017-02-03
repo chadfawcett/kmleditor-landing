@@ -2598,6 +2598,18 @@ html, body {
     color: #00b47b;
     margin-bottom: 0.2em; }
 
+.mc-field-group {
+  display: flex; }
+  .mc-field-group input.email {
+    border: solid 1px white;
+    border-radius: 8px 0 0 8px;
+    border-right: 0;
+    height: 2.85em; }
+  .mc-field-group input.button {
+    border-radius: 0 8px 8px 0;
+    border-left: 0;
+    margin: 0; }
+
 @media screen and (max-width: 980px) {
   #header {
     display: block; }
@@ -2608,4 +2620,6 @@ html, body {
   #banner .inner {
     width: 95%; }
     #banner .inner h1 {
-      font-size: 7em; } }
+      font-size: 7em; }
+  .mc-field-group input.button {
+    padding: 0 1em; } }
